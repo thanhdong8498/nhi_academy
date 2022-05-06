@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nhi Academy</title>
+    <link rel="stylesheet" href="./resource/css/style.css">
+    <link rel="stylesheet" href="./resource/css/queries.css">
+    <link rel="stylesheet" href="./resource/css/animation.css">
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="./vendor/css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./vendor/fonts/fontawesome-5.0.13/css/all.css">
+    <link rel="stylesheet" href="./vendor/fonts/natuspa-font/css/natuspa-icons.css">
+    <!-- slick -->
+    <link rel="stylesheet" href="./vendor/js/slick/slick.css">
+    <link rel="stylesheet" href="./vendor/js/slick/slick-theme.css">
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
+    <link rel="stylesheet" href="./vendor/js/datetimepicker-master/jquery.datetimepicker.css">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="./vendor/js/Magnific-Popup-master/magnific-popup.css">
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="76x76" href="/resource/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resource/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resource/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/resource/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/resource/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/resource/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/resource/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="preload">
+
+    <!-- Loading ......... -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <img src="./imgs/loader.svg" alt="Loader" class="loader-img">
+        </div>
+    </div>
+
+    <!-- overlay for focus -->
+    <div id="overlay" style="display: none;"></div>
+
+    <!-- scroll top -->
+    <a class="scroll-top link-text" href="#home">Top</a>
+
+    <!-- page wrapper -->
+    <div class="page-wrapper">
+        <!-- Header -->
+        <header id="home">
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-xl navbar-dark">
+                <!-- logo site -->
+                <a class="navbar-brand main-logo" href="index.html" rel="home" title="Nhi_academy">
+                    <img src="./imgs/logo.png" alt="Nhi_academy Logo" width="100" height="100">
+                </a>
+                <!--  main nav -->
+                <button class="navbar-toggler mobile-nav-icon" type="button" data-toggle="collapse"
+                    data-target="#main-nav-mobile">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse main-nav">
+                    <ul class="navbar-nav menu" id="mainNav">
+                        <li class="nav-item menu-item menu-item-current menu-item-has-child">
+                            <a class="nav-link" href="index.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="services.html">Dịch vụ</a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="contact-us.html">Liên hệ</a>
+                        </li>
+                        <li class="nav-item menu-item menu-item-has-child">
+                            <a class="nav-link" href="page-blog.html">Khóa học</a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="page-pricing.html">Bảng giá</a>
+                        </li>
+                        <li class="nav-item menu-item">
+                            <a class="nav-link" href="about-us.html">Giới thiệu</a>
+                        </li>
+                        <!-- <li class="nav-item menu-item menu-item-has-child">
+                            <a class="nav-link" href="#">Pages</a>
+                            <ul class="sub-menu">
+                                <li><a href="page-404.html">Error Page</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- nav icon -->
+                <div class="main-nav-icon">
+                    <a class="slide-icon">
+                        <span class="bars-icon nav-icon"><i class="fal fa-bars"></i></span>
+                    </a>
+                </div>
+            </nav>
+            <!-- menu popup -->
+            <div class="menu-popup">
+                <span class="close-icon"><i class="fal fa-times"></i></span>
+                <div class="content-wrap">
+                    <h1 class="title">Nhi Academy</h1>
+                    <p class="text">
+                        Đối với chúng tôi, đó là một cuộc hành trình, không phải là một cuộc chạy đua để xây dựng một di sản và danh tiếng của những người giỏi nhất, mang đến những gì tốt nhất và tạo ra một nền văn hóa Nhi Academy mà chúng tôi tự hào mỗi ngày.
+                    </p>
+                    <!-- <span class="menu-popup-img"><img src="./imgs/summer-sale.jpg" alt="Sale"></span> -->
+                    <div class="contact-popup-info">
+                        <h2 class="title">Liên hệ</h2>
+                        <div class="address">
+                            <span><b>Địa chỉ:</b> 08 Bà Huyện Thanh Quan, P, Quận 3, Thành phố Hồ Chí Minh , Việt Nam</span>
+                        </div>
+                        <div class="email">
+                            <span><b>Email:</b> nhi_academy@email-themes.com</span>
+                        </div>
+                        <div class="phone">
+                            <span><b>Phone:</b> +84937 999 918</span>
+                        </div>
+                        <div class="social-media-icons">
+                            <div class="social-media">
+                                <a class="social-popup-icon" target="_blank" href="#"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <div class="social-media">
+                                <a class="social-popup-icon" target="_blank" href="https://fb.com/Tuannguyentn2504"><i
+                                        class="fab fa-facebook-f"></i></a>
+                            </div>
+                            <div class="social-media">
+                                <a class="social-popup-icon" target="_blank" href="#"><i
+                                        class="fab fa-twitter"></i></i></a>
+                            </div>
+                            <div class="social-media">
+                                <a class="social-popup-icon" target="_blank" href="#"><i
+                                        class="fab fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- slides -->
+            <div class="slide-wrap">
+                <div class="slide-inner">
+                    <div class="slide-item active">
+                        <img src="./imgs/slide_1.jpg" alt="slide one">
+                        <div class="slide-text">
+                            <h3>Chào mừng đến với Nhi Academy!</h3>
+                            <h1>LỰA CHỌN HOÀN HẢO</h1>
+                            <p>Bước vào một bầu không khí thư giãn thoải mái. Nhi Academy là nơi ẩn náu yên bình khỏi lối sống phức tạp và căng thẳng của bạn. Để lại cảm giác sảng khoái, xinh đẹp và thư thái hơn bao giờ hết.
+                            </p>
+                            <a href="#appointment">
+                                <button class="btn book-now-btn">Đặt ngay</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <img src="./imgs/slide_2.jpg" alt="slide two">
+                        <div class="slide-text" style="text-align: left;">
+                            <h3>Chào mừng đến với Nhi Academy!</h3>
+                            <h1>LỰA CHỌN HOÀN HẢO</h1>
+                            <p>Bạn xứng đáng được nghỉ ngơi. Khám phá lại ý nghĩa của việc thoải mái, cảm thấy tốt hơn và tận hưởng những lợi ích lâu dài từ đội ngũ nhân viên kinh nghiệm.
+                            </p>
+                            <a href="#appointment">
+                                <button class="btn book-now-btn">Đặt ngay</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <img src="./imgs/slide_3.jpg" alt="slide three">
+                        <div class="slide-text" style="text-align: right;">
+                            <h3>Chào mừng đến với Nhi Academy!</h3>
+                            <h1>LỰA CHỌN HOÀN HẢO</h1>
+                            <p>Gác lại những công việc bộn bề hàng ngày và dành thời gian cho bản thân, hãy để nhóm nhân viên spa
+                                nạp năng lượng và tái tập trung cơ thể và tâm trí của bạn.
+                            </p>
+                            <a href="#appointment">
+                                <button class="btn book-now-btn">Đặt ngay</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="slide-control" id="prev-slide"></a>
+                <a href="#" class="slide-control" id="next-slide"></a>
+                <ol class="slide-dot">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </div>
+        </header>
+
+        <!-- service section -->
+        <div class="services-section container" id="services">
+            <div class="row">
+                <div class="spacer-clearfix" style="height: 80px;"></div>
+                <div class="services-info col-md-12">
+                    <h2 class="section-title">dịch vụ của chúng tôi</h2>
+                    <p class="services-main-text">Nhi Academy là một tiệm dịch vụ đầy đủ với các chuyên gia về điêu khắc lông mày, điêu khắc môi, xử lí nốt ruồi, chăm sóc da và các phương pháp điều trị khác.
+                    </p>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap">
+                        <i class="natuspa-icon-facial-treatment"></i>
+                    </div>
+                    <div class="heading text-linear-effect">Điêu khắc lông mày</div>
+                    <div class="description">Mỗi khách hàng sẽ được thiết kế mày tỷ lệ vàng. Đẹp tự nhiên, nhẹ nhàng, trẻ trung. Làm đẹp không mất thời gian nghỉ dưỡng</div>
+                    <div class="spacer-clearfix" style="height: 50px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap">
+                        <i class="natuspa-icon-depilation"></i>
+                    </div>
+                    <div class="heading text-linear-effect">Điêu khắc môi xinh</div>
+                    <div class="description">Nhi Academy cam kết mang tới khách hàng đôi môi quyến rũ, đầy thẩm mĩ. Đẹp tự nhiên, nhẹ nhàng. Không ăn kiêng, không sưng.
+                    </div>
+                    <div class="spacer-clearfix" style="height: 50px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap">
+                        <i class="natuspa-icon-massage-1"></i>
+                    </div>
+                    <div class="heading text-linear-effect">Phun,nối mí mắt</div>
+                    <div class="description">Bạn cảm thấy bờ mi chưa được quyến rũ, hãy đến với Nhi Academy. Chúng tôi sẽ tư vấn và mang đến cho quý khách bờ mi quyến rũ, cam kết không rụng mi thật, mi êm ái, dễ chịu không kích ứng.
+                    </div>
+                    <div class="spacer-clearfix" style="height: 50px;"></div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <!-- <div class="services-icon-wrap">
+                        <i class="natuspa-icon-herbal"></i>
+                    </div>
+                    <div class="heading text-linear-effect">Điều trị cơ thể</div>
+                    <div class="description">Điều trị này bắt đầu bằng cách tẩy tế bào chết bằng đường hoa oải hương nhẹ nhàng, sau đó là tắm Vichy để tẩy tế bào chết và loại bỏ vi khuẩn khỏi lỗ chân lông của chúng ta.
+                    </div>
+                    <div class="spacer-clearfix" style="height: 0px;"></div> -->
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-icon-wrap">
+                        <i class="natuspa-icon-polish"></i>
+                    </div>
+                    <div class="heading text-linear-effect">Xử lí nốt ruồi</div>
+                    <div class="description">Nhi Academy có các chuyên gia được đào tạo chuyên sâu về vấn đề nốt ruồi. Nếu bạn có bất kỳ câu hỏi nào, xin vui lòng liên hệ với chúng tôi.
+                    </div>
+                    <div class="spacer-clearfix" style="height: 0px;">
+                    </div>
+                </div>
+                <div class="service col-lg-4 col-md-6 col-sm-12">
+                    <!-- <div class="services-icon-wrap">
+                        <i class="natuspa-icon-stone"></i>
+                    </div>
+                    <div class="heading text-linear-effect">Massage đá nóng</div>
+                    <div class="description">Massage bằng đá nóng là một liệu pháp massage trị liệu, trong đó những viên đá được làm ấm được đặt lên một số vùng nhất định trên cơ thể.
+                    </div>
+                    <div class="spacer-clearfix" style="height: 0px;"></div> -->
+                </div>
+                <div class="spacer-clearfix" style="height: 80px;"></div>
+            </div>
+        </div>
+
+        <!-- about-section -->
+        <div class="about-section container-fluid" id="about">
+            <div class="row">
+                <div class="video-box col-lg-6 col-md-12">
+                    <div class="play-btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="about-main-text col-lg-6 col-md-12">
+                    <h2 class="section-title">Tiểu sử!</h2>
+                    <div class="sub-heading">
+                        <em>Nhi Academy đã mở cửa với sứ mệnh và tầm nhìn tạo ra sự khác biệt tích cực trên thế giới.</em>
+                    </div>
+                    <p class="text-box">Ngày 25 tháng 9 năm 2005, Natuspa mở cửa với sứ mệnh và tầm nhìn là tạo ra sự khác biệt tích cực trên thế giới với từng vị khách trên thế giới và mang đến những điều đặc biệt mà khách của chúng tôi không thể thiếu. đối với chúng tôi, đó là một cuộc hành trình, không phải là một cuộc chạy đua để xây dựng một di sản và danh tiếng của những người giỏi nhất, mang đến những gì tốt nhất và tạo ra một nền văn hóa Natuspa mà chúng tôi tự hào mỗi ngày. chúng tôi khiêm tốn và biết ơn vì có cơ hội mở cửa mỗi ngày, tạo ra những trải nghiệm đặc biệt và cống hiến cho cộng đồng của chúng tôi.
+                    </p>
+                    <a class="link-text text-linear-effect">Đọc thêm</a>
+                </div>
+            </div>
+            <!-- <iframe src="https://www.youtube.com/embed/zHCyHodIlCY" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                class="video-embed">
+            </iframe> -->
+            <span class="close-btn"><i class="fal fa-times"></i></span>
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+        </div>
+
+        <!-- testimonial section -->
+        <!-- <div class="testimonial-section container" id="testimonial">
+            <div class="section-title">Phản hồi từ khách hàng</div>
+            <div class="spacer-clearfix" style="height: 35px;"></div>
+            <blockquote>
+                <div class="slick-slide-cite">
+                    <p>
+                        Tôi đã đến đây hơn 10 năm và dịch vụ đang hoạt động tốt. Các nhân viên rất chuyên nghiệp và biết những gì họ đang làm. Nếu bạn muốn đến một nơi nào đó thực sự thư giãn, hãy đến đây!
+                    </p>
+                    <p>
+                        Tôi đã đến đây hơn 10 năm và dịch vụ đang hoạt động tốt. Các nhân viên rất chuyên nghiệp và biết những gì họ đang làm. Nếu bạn muốn đến một nơi nào đó thực sự thư giãn, hãy đến đây!
+                    </p>
+                    <p>
+                        Tôi đã đến đây hơn 10 năm và dịch vụ đang hoạt động tốt. Các nhân viên rất chuyên nghiệp và biết những gì họ đang làm. Nếu bạn muốn đến một nơi nào đó thực sự thư giãn, hãy đến đây!
+                    </p>
+                    <p>
+                        Tôi đã đến đây hơn 10 năm và dịch vụ đang hoạt động tốt. Các nhân viên rất chuyên nghiệp và biết những gì họ đang làm. Nếu bạn muốn đến một nơi nào đó thực sự thư giãn, hãy đến đây!
+                    </p>
+                    <p>
+                        Tôi đã đến đây hơn 10 năm và dịch vụ đang hoạt động tốt. Các nhân viên rất chuyên nghiệp và biết những gì họ đang làm. Nếu bạn muốn đến một nơi nào đó thực sự thư giãn, hãy đến đây!
+                    </p>
+                </div>
+                <div class="slick-slide-figure-img">
+                    <div><img src="./imgs/testimonials/1.png" alt="customer"></div>
+                    <div><img src="./imgs/testimonials/2.png" alt="customer"></div>
+                    <div><img src="./imgs/testimonials/3.png" alt="customer"></div>
+                    <div><img src="./imgs/testimonials/1.png" alt="customer"></div>
+                    <div><img src="./imgs/testimonials/5.png" alt="customer"></div>
+                    <div><img src="./imgs/testimonials/4.png" alt="customer"></div>
+                </div>
+                <div class="slick-slide-figure-info">
+                    <div class="infomation">
+                        <div class="name">jessica Speckert</div>
+                        <div class="position">Customer</div>
+                    </div>
+                    <div class="infomation">
+                        <div class="name">Maria Green</div>
+                        <div class="position">Customer</div>
+                    </div>
+                    <div class="infomation">
+                        <div class="name">Fiona Speckert</div>
+                        <div class="position">Customer</div>
+                    </div>
+                    <div class="infomation">
+                        <div class="name">jessica Speckert</div>
+                        <div class="position">Customer</div>
+                    </div>
+                    <div class="infomation">
+                        <div class="name">Michelle Martin</div>
+                        <div class="position">Customer</div>
+                    </div>
+                    <div class="infomation">
+                        <div class="name">Margie Edwards</div>
+                        <div class="position">Customer</div>
+                    </div>
+                </div>
+            </blockquote>
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+        </div> -->
+
+        <!-- appointment & form section -->
+        <div id="appointment" class="appointment-section container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="spacer-clearfix" style="height: 90px;"></div>
+                    <div class="heading col-12">
+                        <div class="pre-heading">Đặt lịch hẹn ngay!</div>
+                        <div class="main-heading">premium<br>Collection</div>
+                        <!-- <div class="sub-heading">Up to 50% Off Sale</div> -->
+                    </div>
+                    <div class="spacer-clearfix" style="height: 60px;"></div>
+                    <div class="appointment-form col-12">
+                        <form id="appointment-form" action="javascript:sendEmail1()" method="post">
+                            <div class="row">
+                                <div class="form-input col-lg-4 col-md-6 col-sm-12 your-name">
+                                    <input type="text" name="name" id="name" placeholder="Họ Tên">
+                                    <div class="error">( <span>*</span> )</div>
+                                </div>
+                                <div class="form-input col-lg-4 col-md-6 col-sm-12 your-email">
+                                    <input type="text" name="email" id="email" placeholder="E-mail">
+                                    <div class="error">( <span>*</span> )</div>
+                                </div>
+                                <div class="form-input col-lg-4 col-md-6 col-sm-12 your-phone-number">
+                                    <input type="text" name="phone-number" id="phone-number" placeholder="Số điện thoại">
+                                    <div class="error">( <span>*</span> )</div>
+                                </div>
+                                <div class="form-input col-lg-4 col-md-6 col-sm-12 preferred-date">
+                                    <input type="text" name="preferred-date" id="datepicker"
+                                        placeholder="Ngày ưa thích" autocomplete="off">
+                                    <div class="error">( <span>*</span> )</div>
+                                </div>
+                                <div class="form-input col-lg-4 col-md-6 col-sm-12 your-service">
+                                    <div id="current-option" class="current-option" data-value="0">Loại dịch vụ</div>
+                                    <div class="error">( <span>*</span> )</div>
+                                    <span class="dropdown-icon"><i class="fal fa-chevron-down down"></i></span>
+                                    <ul class="option-menu">
+                                        <li class="option" data-value="0">Loại dịch vụ</li>
+                                        <li class="option" data-value="1">Điêu khắc lông mày</li>
+                                        <li class="option" data-value="1">Điêu khắc môi xinh</li>
+                                        <li class="option" data-value="1">Phun,nối mí mắt</li>
+                                        <li class="option" data-value="1">Xử lí nốt ruồi</li>
+                                        <!-- <li class="option" data-value="1">Derm Young Facial</li>    -->
+                                    </ul>
+                                </div>
+                                <div class="form-input col-lg-4 col-md-6 col-sm-12 submit-btn">
+                                    <input value="ĐẶT LỊCH HẸN NGAY" id="appointment-submit" 
+                                        class="btn book-now-btn" disabled="disabled" style="opacity: 1;">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="spacer-clearfix" style="height: 80px;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- pricing plan -->
+        <div class="pricing-plan container">
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+            <div class="row">
+                <div class="heading col-12">
+                    <div class="main-heading section-title">bảng giá dịch vụ</div>
+                    <div class="sub-heading">
+                        <p>Chào mừng đến với Nhi Academy! Trung tâm spa sang trọng chăm sóc sức khỏe chuyên dụng để tạo cảm hứng cho Cuộc sống cân bằng.
+                        </p>
+                    </div>
+                </div>
+                <div class="spacer-clearfix" style="height: 24px;"></div>
+                <div class="menu-filter">
+                    <div class="filter-item active" title="All" data-id="all">Tất cả</div>
+                    <div class="filter-item" title="Lông mày" data-id="facial">Lông mày</div>
+                    <div class="filter-item" title="Môi" data-id="waxing">Môi</div>
+                    <div class="filter-item" title="Mí" data-id="treatments">Mí</div>
+                    <div class="filter-item" title="Nốt ruồi" data-id="massage">Nốt ruồi</div>
+                    <!-- <div class="filter-item" title="Nail" data-id="nail">Nail</div> -->
+                </div>
+                <div class="spacer-clearfix" style="height: 40px;"></div>
+                <ul class="pricing-menu col-12">
+                    <!-- Mày -->
+                    <li class="pricing-item all facial">
+                        <span class="logo"><i class="natuspa-icon-oil"></i></span>
+                        <div class="heading">
+                            <h4>Mày sợi Hairstroke phong thủy tụ lộc
+                            </h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">6.000.000</span>
+                    </li>
+                    <li class="pricing-item all facial">
+                        <span class="logo"><i class="natuspa-icon-oil"></i></span>
+                        <div class="heading">
+                            <h4>Mày nam khắc sợi phong thủy tụ lộc
+                            </h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">6.000.000</span>
+                    </li>
+                    <li class="pricing-item all facial">
+                        <span class="logo"><i class="natuspa-icon-oil"></i></span>
+                        <div class="heading">
+                            <h4>Mày khắc sợi nữ hoàng kết hợp phun Nano Ombre tài lộc
+                            </h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">5.000.000</span>
+                    </li>
+                    <li class="pricing-item all facial">
+                        <span class="logo"><i class="natuspa-icon-oil"></i></span>
+                        <div class="heading">
+                            <h4>Mày khắc sợi nữ hoàng Phibrows tài lộc
+                            </h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">4.500.000</span>
+                    </li>
+                    <li class="pricing-item all facial">
+                        <span class="logo"><i class="natuspa-icon-oil"></i></span>
+                        <div class="heading">
+                            <h4>Mày phun Nano Ombre tài lộc
+                            </h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">4.000.000</span>
+                    </li>
+                    <li class="pricing-item all facial">
+                        <span class="logo"><i class="natuspa-icon-oil"></i></span>
+                        <div class="heading">
+                            <h4>Mày phun Shading
+                            </h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">3.500.000</span>
+                    </li>
+                    
+                    <!-- Môi -->
+                    <li class="pricing-item all waxing">
+                        <span class=" logo"><i class="natuspa-icon-stone"></i></span>
+                        <div class="heading">
+                            <h4>Môi phú quý rạng ngời</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">6.000.000</span>
+                    </li>
+                    <li class="pricing-item all waxing">
+                        <span class=" logo"><i class="natuspa-icon-stone"></i></span>
+                        <div class="heading">
+                            <h4>Điêu khắc môi nữ hoàng</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">6.000.000</span>
+                    </li>
+                    <li class="pricing-item all waxing">
+                        <span class=" logo"><i class="natuspa-icon-stone"></i></span>
+                        <div class="heading">
+                            <h4>Cấy màu môi tươi collagen</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">4.000.000</span>
+                    </li>
+                    <li class="pricing-item all waxing">
+                        <span class=" logo"><i class="natuspa-icon-stone"></i></span>
+                        <div class="heading">
+                            <h4>Cấy vi chạm nano phủ bóng Mulgwang</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">$99.99</span>
+                    </li>
+                    <!-- Mí -->
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Phun mí mắt đuôi nhẹ tự nhiên</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">2.000.000</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Phun mí mở tròng</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">1.500.000</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Nối mí tự nhiên mi chồn</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">250.000</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Nối mi Baby Doll</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">250.000</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Nối mi Baby Cat</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">250.000</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Nối mi Dubai</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">280.000</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Nối mi Volune</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">280.000</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Nối mi Sole</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">280.000</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Nối mi Katun</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">270.000</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Nối mi Thái Lan</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">280.000</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Mi tơ Hàn Quốc</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">230.000</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Mi lụa Angle</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">250.000</span>
+                    </li>
+                    <li class="pricing-item all treatments">
+                        <span class="logo"><i class="natuspa-icon-polish"></i></span>
+                        <div class="heading">
+                            <h4>Mi nâu Natural</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">250.000</span>
+                    </li>
+                    <li class="pricing-item all massage">
+                        <span class="logo"><i class="natuspa-icon-aloe-vera"></i></span>
+                        <div class="heading">
+                            <h4>Nốt ruồi phong thủy tài lộc</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">286.000/nốt</span>
+                    </li>
+                    <li class="pricing-item all massage">
+                        <span class="logo"><i class="natuspa-icon-aloe-vera"></i></span>
+                        <div class="heading">
+                            <h4>Xóa lazer hiện đại, an toàn, không sẹo</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">1.500.000/lần</span>
+                    </li>
+                    <li class="pricing-item all massage">
+                        <span class="logo"><i class="natuspa-icon-aloe-vera"></i></span>
+                        <div class="heading">
+                            <h4>Xóa nốt ruồi mụn thịt</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">200.000/nốt</span>
+                    </li>
+                    <li class="pricing-item all massage">
+                        <span class="logo"><i class="natuspa-icon-aloe-vera"></i></span>
+                        <div class="heading">
+                            <h4>Xóa nốt ruồi</h4>
+                            <!-- <div class="description">Lorem ipsum dolor sit amet ...</div> -->
+                        </div>
+                        <span class="price">100.000/nốt</span>
+                    </li>
+                </ul>
+                <span id="filter-option"></span>
+            </div>
+            <div class="spacer-clearfix" style="height: 60px;"></div>
+        </div>
+
+        <!-- collection section -->
+        <div class="collection">
+            <a href="./imgs/collection/gallery-1.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-1.jpg" alt="Gallery-1" class="collect-img" id="gallery-1">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a href="./imgs/collection/gallery-2.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-2.jpg" alt="Gallery-2" class="collect-img" id="gallery-2">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a href="./imgs/collection/gallery-3.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-3.jpg" alt="Gallery-3" class="collect-img" id="gallery-3">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a href="./imgs/collection/gallery-4.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-4.jpg" alt="Gallery-4" class="collect-img" id="gallery-4">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a style="display: none;" href="./imgs/collection/gallery-5.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-5.jpg" alt="Gallery-5" class="collect-img" id="gallery-5">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a style="display: none;" href="./imgs/collection/gallery-6.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-6.jpg" alt="Gallery-6" class="collect-img" id="gallery-6">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a style="display: none;" href="./imgs/collection/gallery-7.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-7.jpg" alt="Gallery-7" class="collect-img" id="gallery-7">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a style="display: none;" href="./imgs/collection/gallery-8.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-8.jpg" alt="Gallery-8" class="collect-img" id="gallery-8">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a style="display: none;" href="./imgs/collection/gallery-9.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-9.jpg" alt="Gallery-9" class="collect-img" id="gallery-9">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a style="display: none;" href="./imgs/collection/gallery-10.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-10.jpg" alt="Gallery-10" class="collect-img" id="gallery-10">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a style="display: none;" href="./imgs/collection/gallery-11.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-11.jpg" alt="Gallery-11" class="collect-img" id="gallery-11">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            <a style="display: none;" href="./imgs/collection/gallery-12.jpg" class="collect-item">
+                <img src="./imgs/collection/gallery-12.jpg" alt="Gallery-7" class="collect-img" id="gallery-12">
+                <span class="plus-icon"><i class="fal fa-plus"></i></span>
+            </a>
+            
+        </div>
+
+        <!-- day spa packages
+        <div class="spa-packages container-fluid">
+            <div class="spacer-clearfix" style="height: 70px;"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="heading col-12">
+                        <h2 class="main-heading section-title">Day Spa Packages</h2>
+                        <div class="sub-heading">
+                            <p>Welcome to the Natuspa Day Med Spa! A wellness luxury spa centerdedicatedto inspiring
+                                Life in
+                                Balance.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="package-box col-lg-4 col-md-6 col-sm-12">
+                        <h2 class="section-title name-price-package">basic package<br><span class="price">$369</span>
+                        </h2>
+                        <ul class="features">
+                            <li class="feature-item">Deep Tissue Massage</li>
+                            <li class="feature-item">Sandy Beach Scrub</li>
+                            <li class="feature-item">Essential Treatment Facial</li>
+                            <li class="feature-item"><del>Spa Manicure & Pedicure</del></li>
+                            <li class="feature-item"><del>Complimentary lunch</del></li>
+                        </ul>
+                        <a class="link-text text-linear-effect purchase-btn">purchase</a>
+                    </div>
+                    <div class="package-box center col-lg-4 col-md-6 col-sm-12">
+                        <h2 class="section-title name-price-package">COUPLE'S PACKAGE<br><span class="price">$595</span>
+                        </h2>
+                        <ul class="features">
+                            <li class="feature-item">Deep Tissue Massage</li>
+                            <li class="feature-item">Sandy Beach Scrub</li>
+                            <li class="feature-item">Essential Treatment Facial</li>
+                            <li class="feature-item">Complimentary lunch</li>
+                            <li class="feature-item"><del>Spa Manicure & Pedicure</del></li>
+                            <li class="feature-item">Epsom Salt float therapy</li>
+                        </ul>
+                        <a class="link-text text-linear-effect purchase-btn">purchase</a>
+                    </div>
+                    <div class="package-box col-lg-4 col-md-6 col-sm-12">
+                        <h2 class="section-title name-price-package">special package<br><span class="price">$769</span>
+                        </h2>
+                        <ul class="features">
+                            <li class="feature-item">Deep Tissue Massage</li>
+                            <li class="feature-item">Sandy Beach Scrub</li>
+                            <li class="feature-item">Essential Treatment Facial</li>
+                            <li class="feature-item">Spa Manicure & Pedicure</li>
+                            <li class="feature-item">Complimentary lunch</li>
+                        </ul>
+                        <a class="link-text text-linear-effect purchase-btn">purchase</a>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+        </div> -->
+
+        <!-- counter section -->
+        <!-- <div class="counter-section container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="heading col-md-12 col-lg-6">
+                        <div class="pre-heading">why choose us</div>
+                        <div class="main-heading">enjoy the<br>difference</div>
+                        <div class="sub-heading">
+                            <p>We earned a certificate of acknowledgement and a thank you from the city for volunteering
+                                Natuspa as a resource for police, fire fighters and volunteers to relax and relieve
+                                stress
+                                during such a tragedy.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="counter col-md-12 col-lg-6">
+                        <div class="counter-item">
+                            <div class="number"><span class="price" id="number-1"></span></div>
+                            <h3 class="title">Happy Clients</h2>
+                        </div>
+                        <div class="counter-item">
+                            <div class="number"><span class="price" id="number-2"></span></div>
+                            <h3 class="title">Treatments</h2>
+                        </div>
+                        <div class="counter-item">
+                            <div class="number"><span class="price" id="number-3"></span></div>
+                            <h3 class="title">Therapists</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- team section -->
+        <div class="team container">
+            <div class="spacer-clearfix" style="height: 70px;"></div>
+            <div class="heading">
+                <h2 class="section-title">our happy team</h2>
+                <div class="sub-heading">
+                    <p>Natuspa is a full service salon with experts in body services, nail care, massage, waxing, skin
+                        care,
+                        and other treatments.
+                    </p>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 65px;"></div>
+            <div class="team-slider">
+                <div class="team-item">
+                    <img src="./imgs/team/person-1-370x450.jpg" alt="Person-1">
+                    <div class="infomation">
+                        <h4 class="name">Emille Jenifer</h4>
+                        <div class="position">Massagist</div>
+                    </div>
+                    <ul class="social-media-icons">
+                        <li class="social-media">
+                            <a class="social-popup-icon" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="social-media">
+                            <a href="https://fb.com/tuannguyentn2504" class="social-popup-icon" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social-media">
+                            <a class="social-popup-icon" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="team-item">
+                    <img src="./imgs/team/person-2-370x450.jpg" alt="Person-2">
+                    <div class="infomation">
+                        <h4 class="name">Marsha Hoffman</h4>
+                        <div class="position">makeup expert</div>
+                    </div>
+                    <ul class="social-media-icons">
+                        <li class="social-media">
+                            <a class="social-popup-icon" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="social-media">
+                            <a href="https://fb.com/tuannguyentn2504" class="social-popup-icon" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social-media">
+                            <a class="social-popup-icon" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="team-item">
+                    <img src="./imgs/team/person-3-370x450.jpg" alt="Person-3">
+                    <div class="infomation">
+                        <h4 class="name">Emille Jenifer</h4>
+                        <div class="position">Massagist</div>
+                    </div>
+                    <ul class="social-media-icons">
+                        <li class="social-media">
+                            <a class="social-popup-icon" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="social-media">
+                            <a href="https://fb.com/tuannguyentn2504" class="social-popup-icon" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social-media">
+                            <a class="social-popup-icon" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 90px;"></div>
+        </div>
+
+        <!-- latest blog -->
+        <!-- <div class="latest-blog">
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+            <div class="container-fluid pr-0">
+                <div class="row">
+                    <div class="heading col-md-12">
+                        <div class="section-title">Latest Blog Posts</div>
+                        <div class="sub-heading">
+                            <p>Welcome to the Natuspa Day Med Spa! A wellness luxury spa centerdedicatedto inspiring
+                                Life in
+                                Balance.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="spacer-clearfix" style="height: 62px;"></div>
+                    <div class="col-md-12 pr-0">
+                        <div class="post-slider">
+                            <div class="post-box">
+                                <span class="post-date">
+                                    <span>29 <br> DEC</span>
+                                </span>
+                                <div class="post-category">massage</div>
+                                <a href="#" class="post-title">So You’re Scared of Getting a Massage?</a>
+                                <div class="post-content">
+                                    <p>Massage is more popular in women than men. The idea of going for a massage
+                                        conjures
+                                        up
+                                        visions of pas and pampering which many men don’t see as being very masculine.
+                                        Has
+                                        many
+                                        benefits for men too...
+                                    </p>
+                                </div>
+                                <a class="post-read-more link-text text-linear-effect">read more</a>
+                            </div>
+                            <div class="post-box">
+                                <span class="post-date">
+                                    <span>26 <br> DEC</span>
+                                </span>
+                                <div class="post-category">waxing</div>
+                                <a href="#" class="post-title">The Perfect Gift for Mother’s Day</a>
+                                <div class="post-content">
+                                    <p>Massage is more popular in women than men. The idea of going for a massage
+                                        conjures
+                                        up
+                                        visions of pas and pampering which many men don’t see as being very masculine.
+                                        Has
+                                        many
+                                        benefits for men too...
+                                    </p>
+                                </div>
+                                <a class="post-read-more link-text text-linear-effect">read more</a>
+                            </div>
+                            <div class="post-box">
+                                <span class="post-date">
+                                    <span>28 <br> DEC</span>
+                                </span>
+                                <div class="post-category">facial</div>
+                                <a href="#" class="post-title">So You’re Scared of Getting a Massage?</a>
+                                <div class="post-content">
+                                    <p>Massage is more popular in women than men. The idea of going for a massage
+                                        conjures
+                                        up
+                                        visions of pas and pampering which many men don’t see as being very masculine.
+                                        Has
+                                        many
+                                        benefits for men too...
+                                    </p>
+                                </div>
+                                <a class="post-read-more link-text text-linear-effect">read more</a>
+                            </div>
+                            <div class="post-box">
+                                <span class="post-date">
+                                    <span>27 <br> DEC</span>
+                                </span>
+                                <div class="post-category">massage</div>
+                                <a href="#" class="post-title">Take a Little Stress Out of Your Big Day</a>
+                                <div class="post-content">
+                                    <p>Massage is more popular in women than men. The idea of going for a massage
+                                        conjures
+                                        up
+                                        visions of pas and pampering which many men don’t see as being very masculine.
+                                        Has
+                                        many
+                                        benefits for men too...
+                                    </p>
+                                </div>
+                                <a class="post-read-more link-text text-linear-effect">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer-clearfix" style="height: 90px;"></div>
+        </div> -->
+
+        <!-- maps section -->
+        <div class="maps container-fluid">
+            <div class="spacer-clearfix" style="height: 80px;"></div>
+            <div class="row">
+                <div class="maps-embed col-md-12 col-lg-6 p-0">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4659991467033!2d106.6878861146209!3d10.77557656215634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529f4a6614685%3A0x35a5e5944287f86f!2sN.H.I%20ACADEMY!5e0!3m2!1svi!2s!4v1651293901235!5m2!1svi!2s"
+                        width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="">
+                    </iframe>
+                </div>
+                <div class="maps-contact col-md-12 col-lg-6">
+                    <div class="spacer-clearfix" style="height: 80px;"></div>
+                    <div class="inner">
+                        <div class="row">
+                            <div class="contact col-lg-12 col-xl-6">
+                                <div class="contact-popup-info">
+                                    <h2 class="section-title">Nhi Academy</h2>
+                                    <div class="address">
+                                        <span>08 Bà Huyện Thanh Quan, phường, quận 3, TP.HCM</span>
+                                    </div>
+                                    <div class="email">
+                                        <span>Natuspa@email-themes.com</span>
+                                    </div>
+                                    <div class="phone">
+                                        <span>+84 933 1235 113</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <form action="#" class="maps-form col-sm-12">
+                                <div class="row">
+                                    <div class="form-input col-sm-6 your-name">
+                                        <input type="text" name="name" id="name" placeholder="Họ tên">
+                                        <div class="error">( <span>*</span> )</div>
+                                    </div>
+                                    <div class="form-input col-sm-6 your-email">
+                                        <input type="text" name="email" id="email" placeholder="E-mail">
+                                        <div class="error">( <span>*</span> )</div>
+                                    </div>
+                                    <div class="form-input col-sm-6 your-phone-number">
+                                        <input type="text" name="phone-number" id="phone-number"
+                                            placeholder="Số điện thoại">
+                                        <div class="error">( <span>*</span> )</div>
+                                    </div>
+                                    <div class="form-input col-sm-6 your-service">
+                                        <div class="current-option" data-value="0">Loại dịch vụ</div>
+                                        <div class="error">( <span>*</span> )</div>
+                                        <span class="dropdown-icon"><i class="fal fa-chevron-down down"></i></span>
+                                        <ul class="option-menu">
+                                            <li class="option" data-value="0">Loại dịch vụ</li>
+                                            <li class="option" data-value="1">Điêu khắc lông mày</li>
+                                            <li class="option" data-value="1">Điêu khắc môi xinh</li>
+                                            <li class="option" data-value="1">Phun,nối mí mắt</li>
+                                            <li class="option" data-value="1">Xử lí nốt ruồi</li>
+                                        </ul>
+                                    </div>
+                                    <textarea name="your-message" id="yourMessage"
+                                        placeholder="Lời nhắn"></textarea>
+                                    <div class="form-input col-12 submit-btn">
+                                        <input value="liên hệ" id="appointment-submit"
+                                            class="btn book-now-btn" disabled="disabled" style="opacity: 1;">
+                                    </div>
+                                </div>
+                            </form> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div>
+                <a href="index.html"><img class="footer-logo" src="./imgs/footer-logo-white.png" alt="footer-logo"></a>
+            </div>
+            <div class="sub-heading">Design by Nguyen Thanh Dong ft. Tuan Hoang Dinh</div>
+            <div class="slogan">The early bird catches the worm</div>
+            <ul class="footer-social">
+                <li class="social-media" style="background-color: #4b64a6;">
+                    <a class="social-popup-icon" target="_blank" href="https://www.facebook.com/truongdaotaonghechuyennghiep">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="social-media" style="background-color: #0cace4;">
+                    <a class="social-popup-icon" target="_blank" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-media" style="background-color: #f12756;">
+                    <a class="social-popup-icon" target="_blank" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-bottom">Copyright © 2022. Nhi Academy. All Rights Reserved.</div>
+    </footer>
+    <script src="./vendor/js/jquery-v3.4.1.min.js"></script>
+    <script src="./vendor/js/bootstrap.min.js"></script>
+    <script src="./vendor/js/jquery.waypoints.min.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/7534282567.js" crossorigin="anonymous"></script> -->
+    <script src="./vendor/js/slick/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="./vendor/js/datetimepicker-master/build/jquery.datetimepicker.full.js"></script>
+    <script src="./vendor/js/Magnific-Popup-master/jquery.magnific-popup.min.js"></script>
+
+    <script src="./resource/js/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+
+</html>

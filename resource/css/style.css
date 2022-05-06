@@ -758,7 +758,7 @@ nav.nav-sticky {
 }
 
 .video-box {
-    background-image: url('/imgs/about-1.jpg');
+    background-image: url('../../imgs/about-1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -952,7 +952,7 @@ nav.nav-sticky {
 /* ============================================ !! ============================================ */
 /* ======================== Appointment section ============================ */
 .appointment-section {
-    background-image: url('/imgs/appointment-bg.jpg');
+    background-image: url('../../imgs/appointment-bg.jpg');
     background-position: center center;
     background-size: cover;
 }
@@ -1757,7 +1757,7 @@ footer .footer-logo {
 /* ===================== Other Pages title ====================== */
 /* ============================================================== */
 .other-pages{
-   background-image: url('/imgs/featured-bg.jpg');
+   background-image: url('../../imgs/featured-bg.jpg');
    height: 50vh !important;
 }
 
@@ -1876,7 +1876,7 @@ footer .footer-logo {
 }
 
 .appointment-course-section {
-    background-image: url('/imgs/appointment-bg.jpg');
+    background-image: url('../../imgs/appointment-bg.jpg');
     background-position: center center;
     background-size: cover;
 }
